@@ -14,5 +14,5 @@ class Quote:
         return response.json()
 
 if __name__ == '__main__':
-    quotes = Quote().list_of_quotes
+    quotes = Quote().list_of_quotes[1]
     print(quotes)
